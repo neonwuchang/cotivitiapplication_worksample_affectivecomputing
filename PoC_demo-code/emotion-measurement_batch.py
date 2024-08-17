@@ -11,6 +11,8 @@ HUME_API_KEY=os.getenv("HUME_API_KEY")
 # reference: HumeAI Github repository
 
 client = HumeBatchClient(HUME_API_KEY)
+
+# images sourced from HUmeAI sample images
 urls = ["https://hume-tutorials.s3.amazonaws.com/faces.zip"]
 
 face_config = FaceConfig()
